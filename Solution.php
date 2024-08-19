@@ -51,7 +51,7 @@ class Solution
         
         //Check if the first letter is upper case and the other lower case
         $firstLetter = $this->word[0];
-        $otherLetters = substr($this->word, 1, -1); 
+        $otherLetters = substr($this->word, - ( strlen($this->word) - 1 ) );
         
         if(ctype_upper($firstLetter) && ctype_lower($otherLetters)){
             return true;

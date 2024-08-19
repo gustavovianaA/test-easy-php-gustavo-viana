@@ -35,10 +35,16 @@ showResults($word);
 $word = new Solution('Teste');
 showResults($word);
 
+$word = new Solution('Te');
+showResults($word);
+
 $word = new Solution('GusTavo');
 showResults($word);
 
 $word = new Solution('ResultadoFalSO');
+showResults($word);
+
+$word = new Solution('TestE');
 showResults($word);
 
 //This tests cannot be computed due to the constraints
