@@ -41,7 +41,7 @@ class Solution
     public function detectCapitalUse() {
         
         if(!$this->valid){
-            return false; 
+            return null; 
         }
 
         //Check if all letters are upper or lower case
